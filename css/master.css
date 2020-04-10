@@ -1,0 +1,234 @@
+h1 { background-color: rgb(195,158,158);
+  font-size: 5em;
+  text-align: center;
+  font-family: "Parisine Bold";
+
+
+}
+
+
+
+.present {
+  text-align: match-parent;
+border-radius: 80% 80px;
+  font-family: "Timberline";
+
+}
+
+
+
+
+body{
+  background: rgb(240,228,216);
+}
+
+.fond {
+background-image: url ("solaire.png") ;
+z-index: 0;
+display: block;
+margin: 0 auto;
+clear: both;
+margin-left: 320px;
+}
+
+
+
+
+
+section {
+  border-top: 1px solid #d3D3D3;
+  min-height: 99vh;
+  text-align: center;
+}
+
+.Project-feature-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(246,265,240);
+  border-radius: 20px 20%;
+
+}
+.Project-feature {
+  border: 2px solid #000;
+  border-radius: 40% 30px;
+  margin: 1em;
+  margin-left: 1em;
+  padding: 1em;
+  margin-bottom: 1em;
+  flex-basis: 320px;
+  flex-grow: 1;
+}
+
+figcaption {
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+.photo-feature {
+  margin: 15em;
+  padding: 3em;
+  margin-bottom: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+  flex-basis: 320px;
+  flex-grow: 1;
+  background-color: rgb(246,265,240);
+}
+
+.div {
+  margin: 15em;
+  padding: 3em;
+  margin-bottom: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+  flex-basis: 320px;
+  flex-grow: 1;
+background-color: rgb(195,158,158);
+
+}
+
+.photo-feature-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px;
+margin-left: auto;
+margin-right: auto;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  display: inline-block;
+
+
+
+}
+
+#main-menu:target {
+  left:0;
+}
+
+#main-menu {
+  background: black;
+  position: absolute;
+  top: 0;
+  left:-300px;
+  width: 300px;
+  height: 100%;
+  transition: 1s all ease;
+  z-index: 999;
+}
+
+#main-menu ul a {
+  display: block;
+  color: rgb;
+background: rgb(183,96,91);
+padding: 1em;
+margin-bottom: 1px;
+color: rgb(246,265,240);
+border-radius: 360px 100px;
+margin: 1em;
+font-size: 1em;
+font-family: "Montserrat";
+clear: both;
+}
+
+.projectone {
+  font-family: "Montserrat";
+  border-radius: 80% 80px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background: rgb(183,96,91);
+  text-align: center;
+}
+
+.menu-toggle {
+  display: block;
+  border:1px solid #000;
+  border-radius: 6px;
+  padding: 1em;
+  max-width: 120px;
+  text-align: center;
+}
+
+.close-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(183,96,91);
+  color: rgb(246,265,240);
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  text-decoration: none;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+#main-menu:target + .backdrop {
+  background: rgb(195,158,158);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+}
+
+@media (min-width: 640px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+#main-menu {
+  position: static;
+  width: 60%;
+  background: transparent;
+  color: black;
+  font-family: "Montserrat";
+}
+.menu-toggle{
+  display: none;
+}
+#main-menu ul{
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Montserrat";
+
+  margin: 0 auto;
+
+
+
+
+
+#me {
+justify-content: center;
+text-align: center;
+}
+
+p.contact {
+  font-size: 3em;
+  margin: 0.5em;
+  text-align: center;
+  color: green;
+
+}
+
+.number {
+  text-align: center;
+  color: green;
+}
+
+.couv {
+  z-index: 0;
+  position: relative;
+  	padding: 10em solid black;
+  max-width: width:100%;
+  margin-left: 320px;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
