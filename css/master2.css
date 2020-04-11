@@ -1,7 +1,9 @@
 
 body {
   background: #000000;
-  }.photointer_ {
+  }
+
+  .photointer_ {
   border: 3px solid #000;
   margin: 3em;
   padding: 3em;
@@ -11,7 +13,7 @@ body {
   background-color: black;
 }
 
-.interphoto {
+.interphoto  {
   max-width: 1280px;
   margin: 0 auto;
   padding: 1em;
@@ -20,7 +22,7 @@ body {
   justify-content: space-evenly;
   font-family: "Timberline";
   font-size: 1.5em;
-
+  color: white;
 }
 
 

@@ -1,7 +1,4 @@
-body {
-  font-family: Helvetica;
-  color: white;
-}
+
 
 h1 { font-size: 3em;
   margin-bottom: 1.25em;
@@ -14,6 +11,10 @@ margin-top: 100px;
 text-align:center;
 color:  #d9b3ff;
 font-size:200px;
-font-style: italic
+font-style: italic;
 
+}
+
+.number {
+  font-family: "Timberline";
 }
