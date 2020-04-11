@@ -2,8 +2,6 @@ h1 { background-color: rgb(195,158,158);
   font-size: 5em;
   text-align: center;
   font-family: "Parisine Bold";
-
-
 }
 
 
@@ -12,7 +10,6 @@ h1 { background-color: rgb(195,158,158);
   text-align: match-parent;
 border-radius: 80% 80px;
   font-family: "Timberline";
-
 }
 
 
@@ -25,10 +22,10 @@ body{
 .fond {
 background-image: url ("solaire.png") ;
 z-index: 0;
-display: block;
 margin: 0 auto;
 clear: both;
-margin-left: 320px;
+margin-left: 650px;
+margin-right:inherit;
 }
 
 
@@ -50,8 +47,8 @@ section {
   justify-content: space-evenly;
   background-color: rgb(246,265,240);
   border-radius: 20px 20%;
-
 }
+
 .Project-feature {
   border: 2px solid #000;
   border-radius: 40% 30px;
@@ -100,9 +97,6 @@ margin-right: auto;
   margin-top: 5em;
   margin-bottom: 10em;
   display: inline-block;
-
-
-
 }
 
 #main-menu:target {
@@ -122,7 +116,7 @@ margin-right: auto;
 
 #main-menu ul a {
   display: block;
-  color: rgb;
+
 background: rgb(183,96,91);
 padding: 1em;
 margin-bottom: 1px;
@@ -179,7 +173,6 @@ clear: both;
 
 @media (min-width: 640px){
   header{
-    display: flex;
     justify-content: space-between;
     padding: 2em;
   }
@@ -198,7 +191,7 @@ clear: both;
   justify-content: flex-end;
   font-family: "Montserrat";
 
-  margin: 0 auto;
+  margin: 0 auto;  }
 
 
 
@@ -219,7 +212,10 @@ p.contact {
 
 .number {
   text-align: center;
-  color: green;
+  color: rgb(195,158,158);
+  font-weight: bold;
+  text-decoration: underline;
+
 }
 
 .couv {
@@ -227,8 +223,12 @@ p.contact {
   position: relative;
   	padding: 10em solid black;
   max-width: width:100%;
-  margin-left: 320px;
-  text-align: center;
+
+
   margin-bottom: 100px;
 
+}
+
+.titrecontact {
+  font-family: "Montserrat";
 }
